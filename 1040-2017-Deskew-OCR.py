@@ -8,7 +8,17 @@ import cv2
 from PIL import Image
 from alyn import Deskew
 
-INPUT_IMAGE = "images/2017_1040.png"
+INPUT_IMAGE = "images/2017_1040.png"						# 6/6
+#INPUT_IMAGE = "images/2017_1040-sm.png" 					# 6/6
+#INPUT_IMAGE = "images/2017_1040-lg.png"					# 6/6
+#INPUT_IMAGE = "images/2017_1040-xl.png"					# 6/6	
+#INPUT_IMAGE = "images/2017_1040_borders.png"				# 6/6
+#INPUT_IMAGE = "images/2017_1040_borders-dramatic.png"		# 6/6
+#INPUT_IMAGE = "images/2017_1040_skewed.png"				# 6/6
+#INPUT_IMAGE = "images/2017_1040_skewed-cc.png"				# 5/6 (Missed income: "" -- OCR error)
+#INPUT_IMAGE = "images/2017_1040_skewed-dramatic.png"		# MemoryError?
+#INPUT_IMAGE = "images/2017_1040_skewed-lg.png"				# 5/6 (Missed city: "" -- OCR error)
+
 DESKEWED_IMAGE = "Deskewed.png"
 CONTOURED_IMAGE = "Contoured.png"
 CROPPED_IMAGE = "Cropped.png"
