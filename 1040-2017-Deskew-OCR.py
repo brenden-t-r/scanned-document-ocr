@@ -8,10 +8,10 @@ import cv2
 from PIL import Image
 from alyn import Deskew
 
-INPUT_IMAGE = "images/2017_1040-1-skewed.jpg"
-DESKEWED_IMAGE = "Deskewed.jpg"
-CONTOURED_IMAGE = "Contoured.jpg"
-CROPPED_IMAGE = "Cropped.jpg"
+INPUT_IMAGE = "images/2017_1040.png"
+DESKEWED_IMAGE = "Deskewed.png"
+CONTOURED_IMAGE = "Contoured.png"
+CROPPED_IMAGE = "Cropped.png"
 
 STRING = "STRING"
 NUMBER = "NUMBER"
