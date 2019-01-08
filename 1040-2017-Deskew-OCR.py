@@ -9,7 +9,6 @@ from PIL import Image
 from alyn import Deskew
 
 INPUT_IMAGE = "images/2017_1040.png"						# 6/6
-#INPUT_IMAGE = "images/2017_1040-xxs.png" 					# 2/6
 #INPUT_IMAGE = "images/2017_1040-xs.png" 					# 3/6
 #INPUT_IMAGE = "images/2017_1040-sm.png" 					# 6/6
 #INPUT_IMAGE = "images/2017_1040-lg.png"					# 6/6
@@ -19,6 +18,7 @@ INPUT_IMAGE = "images/2017_1040.png"						# 6/6
 #INPUT_IMAGE = "images/2017_1040_skewed.png"					# 6/6
 #INPUT_IMAGE = "images/2017_1040_skewed-cc.png"					# 5/6 (Missed income: "" -- OCR error)
 #INPUT_IMAGE = "images/2017_1040_skewed-dramatic.png"				# MemoryError?
+#INPUT_IMAGE = "images/2017_1040_skewed-dramatic-sm.png"			# 3/6 (2 blank, 1 typo)
 #INPUT_IMAGE = "images/2017_1040_skewed-lg.png"					# 5/6 (Missed city: "" -- OCR error)
 
 DESKEWED_IMAGE = "Deskewed.png"
