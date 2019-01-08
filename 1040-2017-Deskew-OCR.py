@@ -9,6 +9,8 @@ from PIL import Image
 from alyn import Deskew
 
 INPUT_IMAGE = "images/2017_1040.png"						# 6/6
+#INPUT_IMAGE = "images/2017_1040-xxs.png" 					# 2/6
+#INPUT_IMAGE = "images/2017_1040-xs.png" 					# 3/6
 #INPUT_IMAGE = "images/2017_1040-sm.png" 					# 6/6
 #INPUT_IMAGE = "images/2017_1040-lg.png"					# 6/6
 #INPUT_IMAGE = "images/2017_1040-xl.png"					# 6/6	
